@@ -1,27 +1,93 @@
+:root {
+  --primary: #1e90ff;
+  --bg: #f0f4f8;
+  --text: #333;
+  --card-bg: rgba(255, 255, 255, 0.9);
+  --glass: rgba(255, 255, 255, 0.6);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  background: #f0f4f8;
-  padding: 20px;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  color: var(--text);
 }
 
-.container {
+.quiz-container {
   max-width: 600px;
-  margin: auto;
-  background: white;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #ccc;
-}
-
-#options button {
-  display: block;
-  margin: 10px 0;
-  padding: 10px;
   width: 100%;
+  text-align: center;
 }
 
-button {
-  padding: 10px 20px;
-  margin-top: 20px;
+.quiz-title {
+  color: white;
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  background: var(--card-bg);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.question-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.options-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+.options-grid button {
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--primary);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.options-grid button:hover {
+  background-color: #0d6efd;
+}
+
+.btn {
+  margin-top: 1.5rem;
+  padding: 0.75rem 2rem;
   font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+.hidden {
+  display: none;
 }

@@ -1,17 +1,256 @@
 [
-    {
-        "question": "What is the capital of France?",
-        "options": ["Paris", "London", "Berlin", "Rome"],
-        "answer": "Paris"
-    },
-    {
-        "question": "What is 2 + 2?",
-        "options": ["3", "4", "5", "6"],
-        "answer": "4"
-    },
-    {
-        "question": "What is the boiling point of water?",
-        "options": ["90°C", "80°C", "100°C", "120°C"],
-        "answer": "100°C"
-    }
+  {
+    "question": "What is the capital of France?",
+    "options": ["Paris", "Berlin", "Madrid", "Rome"],
+    "answer": "Paris"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Jupiter", "Venus"],
+    "answer": "Mars"
+  },
+  {
+    "question": "What does CPU stand for?",
+    "options": ["Central Processing Unit", "Computer Power Unit", "Control Program Unit", "Central Programming Unit"],
+    "answer": "Central Processing Unit"
+  },
+  {
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "options": ["William Shakespeare", "Charles Dickens", "Mark Twain", "Jane Austen"],
+    "answer": "William Shakespeare"
+  },
+  {
+    "question": "Which gas do plants absorb from the atmosphere?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Helium"],
+    "answer": "Carbon Dioxide"
+  },
+  {
+    "question": "In which year did the Titanic sink?",
+    "options": ["1912", "1905", "1898", "1923"],
+    "answer": "1912"
+  },
+  {
+    "question": "What is the hardest natural substance on Earth?",
+    "options": ["Diamond", "Gold", "Iron", "Granite"],
+    "answer": "Diamond"
+  },
+  {
+    "question": "Which element has the chemical symbol 'O'?",
+    "options": ["Oxygen", "Osmium", "Oxide", "Organium"],
+    "answer": "Oxygen"
+  },
+  {
+    "question": "How many continents are there?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "7"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "options": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Michelangelo"],
+    "answer": "Leonardo da Vinci"
+  },
+
+  {
+    "question": "What is the smallest prime number?",
+    "options": ["0", "1", "2", "3"],
+    "answer": "2"
+  },
+  {
+    "question": "Which animal is known as the king of the jungle?",
+    "options": ["Tiger", "Elephant", "Lion", "Gorilla"],
+    "answer": "Lion"
+  },
+  {
+    "question": "What is the square root of 144?",
+    "options": ["11", "12", "13", "14"],
+    "answer": "12"
+  },
+  {
+    "question": "What is the boiling point of water in Celsius?",
+    "options": ["90°C", "100°C", "110°C", "120°C"],
+    "answer": "100°C"
+  },
+  {
+    "question": "Which country gifted the Statue of Liberty to the USA?",
+    "options": ["France", "UK", "Germany", "Italy"],
+    "answer": "France"
+  },
+  {
+    "question": "What is the largest ocean in the world?",
+    "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+    "answer": "Pacific"
+  },
+  {
+    "question": "What is H2O commonly known as?",
+    "options": ["Oxygen", "Water", "Hydrogen", "Salt"],
+    "answer": "Water"
+  },
+  {
+    "question": "How many legs does a spider have?",
+    "options": ["6", "8", "10", "12"],
+    "answer": "8"
+  },
+  {
+    "question": "Which organ purifies our blood?",
+    "options": ["Heart", "Liver", "Kidney", "Lungs"],
+    "answer": "Kidney"
+  },
+  {
+    "question": "Which language is used to style web pages?",
+    "options": ["HTML", "Python", "CSS", "Java"],
+    "answer": "CSS"
+  },
+
+  {
+    "question": "Who discovered gravity?",
+    "options": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Marie Curie"],
+    "answer": "Isaac Newton"
+  },
+  {
+    "question": "Which number comes after 999?",
+    "options": ["1000", "1001", "9999", "1999"],
+    "answer": "1000"
+  },
+  {
+    "question": "What color do you get when you mix red and blue?",
+    "options": ["Purple", "Brown", "Green", "Orange"],
+    "answer": "Purple"
+  },
+  {
+    "question": "Which vitamin is produced when a person is exposed to sunlight?",
+    "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin B"],
+    "answer": "Vitamin D"
+  },
+  {
+    "question": "What is the main language spoken in Brazil?",
+    "options": ["Spanish", "Portuguese", "English", "French"],
+    "answer": "Portuguese"
+  },
+  {
+    "question": "What part of the plant conducts photosynthesis?",
+    "options": ["Root", "Stem", "Leaf", "Flower"],
+    "answer": "Leaf"
+  },
+  {
+    "question": "Which metal is liquid at room temperature?",
+    "options": ["Mercury", "Iron", "Lead", "Copper"],
+    "answer": "Mercury"
+  },
+  {
+    "question": "What is the tallest mountain in the world?",
+    "options": ["K2", "Everest", "Kilimanjaro", "Makalu"],
+    "answer": "Everest"
+  },
+  {
+    "question": "What does HTTP stand for?",
+    "options": ["HyperText Transfer Protocol", "High Transfer Text Protocol", "HyperText Testing Protocol", "Hyperlink Text Terminal Process"],
+    "answer": "HyperText Transfer Protocol"
+  },
+  {
+    "question": "Which planet is the largest in our solar system?",
+    "options": ["Earth", "Saturn", "Jupiter", "Neptune"],
+    "answer": "Jupiter"
+  },
+
+  {
+    "question": "Which instrument has keys, pedals, and strings?",
+    "options": ["Piano", "Guitar", "Violin", "Drum"],
+    "answer": "Piano"
+  },
+  {
+    "question": "How many bones are in the adult human body?",
+    "options": ["206", "208", "210", "201"],
+    "answer": "206"
+  },
+  {
+    "question": "What does DNA stand for?",
+    "options": ["Deoxyribonucleic Acid", "Deoxynucleic Agent", "Dynamic Nucleic Acid", "Dense Neuron Arrangement"],
+    "answer": "Deoxyribonucleic Acid"
+  },
+  {
+    "question": "Which is the largest land animal?",
+    "options": ["Giraffe", "Elephant", "Rhino", "Hippopotamus"],
+    "answer": "Elephant"
+  },
+  {
+    "question": "Which country is famous for tulips?",
+    "options": ["Netherlands", "Belgium", "Canada", "Switzerland"],
+    "answer": "Netherlands"
+  },
+  {
+    "question": "Who invented the telephone?",
+    "options": ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "Isaac Newton"],
+    "answer": "Alexander Graham Bell"
+  },
+  {
+    "question": "Which planet has rings?",
+    "options": ["Saturn", "Earth", "Mars", "Venus"],
+    "answer": "Saturn"
+  },
+  {
+    "question": "Which continent is the Sahara Desert in?",
+    "options": ["Asia", "Africa", "Australia", "South America"],
+    "answer": "Africa"
+  },
+  {
+    "question": "Which city is known as the Big Apple?",
+    "options": ["Chicago", "New York", "Los Angeles", "Boston"],
+    "answer": "New York"
+  },
+  {
+    "question": "How many strings does a violin have?",
+    "options": ["4", "5", "6", "7"],
+    "answer": "4"
+  },
+
+  {
+    "question": "What is the chemical symbol for gold?",
+    "options": ["Au", "Ag", "Gd", "Go"],
+    "answer": "Au"
+  },
+  {
+    "question": "Which shape has four equal sides?",
+    "options": ["Square", "Rectangle", "Triangle", "Pentagon"],
+    "answer": "Square"
+  },
+  {
+    "question": "Which is the fastest land animal?",
+    "options": ["Cheetah", "Lion", "Horse", "Greyhound"],
+    "answer": "Cheetah"
+  },
+  {
+    "question": "Which human organ is responsible for pumping blood?",
+    "options": ["Liver", "Brain", "Lungs", "Heart"],
+    "answer": "Heart"
+  },
+  {
+    "question": "Which country has the most population?",
+    "options": ["USA", "India", "China", "Russia"],
+    "answer": "China"
+  },
+  {
+    "question": "Which natural disaster is measured on the Richter scale?",
+    "options": ["Tornado", "Hurricane", "Earthquake", "Flood"],
+    "answer": "Earthquake"
+  },
+  {
+    "question": "Which programming language is used for web apps and is named after coffee?",
+    "options": ["Python", "JavaScript", "Java", "Ruby"],
+    "answer": "Java"
+  },
+  {
+    "question": "What does NASA stand for?",
+    "options": ["National Aeronautics and Space Administration", "National Air and Space Association", "National Astronomy and Space Agency", "New American Space Authority"],
+    "answer": "National Aeronautics and Space Administration"
+  },
+  {
+    "question": "Which unit is used to measure electric current?",
+    "options": ["Volt", "Ampere", "Watt", "Ohm"],
+    "answer": "Ampere"
+  },
+  {
+    "question": "Which is the longest river in the world?",
+    "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+    "answer": "Nile"
+  }
 ]

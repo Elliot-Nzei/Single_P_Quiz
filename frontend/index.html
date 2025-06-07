@@ -3,19 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Quiz Game</title>
+  <title>Quiz Login</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <main class="quiz-container">
-    <h1 class="quiz-title">🧠 Ultimate Quiz Game</h1>
-    <section id="quiz-box" class="card">
-      <p id="question" class="question-text"></p>
-      <div id="options" class="options-grid"></div>
-      <button id="next-btn" class="btn hidden">Next Question</button>
+    <h1 class="quiz-title">🎮 Enter Your Name</h1>
+    <section class="card">
+      <input type="text" id="player-name" placeholder="Your name..." />
+      <button class="btn" onclick="startGame()">Start Game</button>
     </section>
-    <section id="score-box" class="card hidden"></section>
   </main>
-  <script src="script.js"></script>
+  <script>
+    function startGame() {
+      const name = document.getElementById('player-name').value.trim();
+      if (name) {
+        localStorage.setItem('playerName', name);
+        window.location.href = "quiz.html";
+      } else {
+        alert("Please enter your name to start.");
+      }
+    }
+  </script>
 </body>
 </html>

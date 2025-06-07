@@ -1,0 +1,21 @@
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+import json
+import random
+
+app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"]
+)
+
+@app.get("/questions")
+def get_questions():
+    with open("backend/questions.json") as f:
+        questions = json.load(f)
+    random.shuffle(questions)
+    return questions
